@@ -12,7 +12,7 @@ function randomLogoEmoji() {
 
 function buildEmojiList() {
 
-    let emojiJson = "../../emojis.json";
+    let emojiJson = "../emojis.json";
     let listBlock = '';
 
     $.getJSON(emojiJson, (data) => {
