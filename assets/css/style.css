@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: NotoColorEmoji;
+    unicode-range: U+1F1E6-1F1FF;
+    src: url("../fonts/NotoColorEmoji.ttf") format('truetype');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(23deg, rgb(196 201 212) 0%, rgb(203 209 224) 100%);
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 44px 0px;
+}
+
+header h1 {
+    font-size: 67px;
+    font-weight: bold;
+    color: rgb(255 255 255);
+    text-shadow: 2px 2px 6px rgb(0 0 0 / 26%);
+}
+
+footer {
+    font-size: 17px;
+    color: rgb(232 235 243 / 50%);
+    text-align: center;
+    padding: 100px;
+    text-shadow: 0px 0px 16px rgb(69 82 113 / 37%);
+    font-family: 'Roboto';
+}
+
+footer b {
+    color: rgb(232 235 243 / 80%);
+}
+
+img.github {
+    display: block;
+    width: 50px;
+    margin: 27px auto 10px auto;
+    opacity: 0.8;
+}
+
+img.github:hover {
+    opacity: 1;
+}
+
+.logo-emoji {
+    font-size: 27px;
+    text-shadow: 0 0 0 !important;
+    display: inline-block;
+    position: relative;
+    top: -7px;
+    background: rgb(255 255 255);
+    border-radius: 35px;
+    height: 37px;
+    width: 37px;
+    padding: 1px 0px 0px 0px;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 28%);
+    margin: 0px 2px;
+    text-align: center;
+}
+
+.data-panel {
+    background: rgb(255 255 255 / 50%);
+    min-height: 100px;
+    border-radius: 9px;
+    padding: 30px !important;
+    box-shadow: 0px 0px 26px rgb(81 93 121 / 21%);
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.data-panel .text {
+    color: rgb(90 100 123);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 29px;
+    font-family: 'Marck Script';
+    color: rgb(120 129 146);
+    margin-top: 13px;
+    margin-left: 7px;
+    margin-bottom: -21px;
+}
+
+.emoji:hover {
+    background: rgb(192 196 206);
+    border: 1px solid rgb(153 162 181);
+}
+
+.emoji {
+    display: inline-block;
+    background: rgb(214 217 224);
+    margin-right: 6px;
+    min-width: 68px;
+    height: 68px;
+    font-size: 41px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid rgb(0,0,0,0);
+    font-family: 'NotoColorEmoji', -apple-system, BlinkMacSystemFont, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    padding: 2px;
+}
+
+.title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: rgb(113 123 150);
+    font-family: 'Roboto';
+}
+
+.block {
+    margin-bottom: 28px;
+}
+
+.block .title span {
+    margin-left: 12px;
+    font-size: 15px;
+    padding: 4px 12px 4px;
+    border-radius: 22px;
+    font-weight: bold;
+    color: rgb(171 177 191);
+    margin-top: 5px;
+}
+
+.latest {
+    background: rgb(161 69 245);
+    padding: 17px 21px 15px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: rgb(255 255 255);
+    width: 99.5%;
+}
