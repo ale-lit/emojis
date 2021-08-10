@@ -22,7 +22,7 @@ function buildEmojiList() {
             });
             listBlock += `<div class="block" id="${data[i].id}"><div class="title">${data[i].name}<span>${data[i].emojis.length} emojis</span></div>`;
             if(data[i].description) {
-                listBlock += `<div class="latest">${data[i].description}</div>`;
+                listBlock += `<div class="description">${data[i].description}</div>`;
             }
             listBlock += `<div class="list">${emojis}</div></div>`;
         }

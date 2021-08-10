@@ -101,7 +101,7 @@ img.github:hover {
     margin-bottom: 30px;
 }
 
-.description {
+.header .description {
     font-size: 29px;
     font-family: 'Marck Script';
     color: rgb(120 129 146);
@@ -155,12 +155,12 @@ img.github:hover {
     top: -1px;
 }
 
-.latest {
-    background: rgb(161 69 245);
+.block .description {
+    background: rgb(147 159 183);
     padding: 17px 21px 15px;
     margin-bottom: 13px;
     border-radius: 4px;
     font-size: 15px;
     color: rgb(255 255 255);
-    width: 99.5%;
+    width: fit-content;
 }
