@@ -5,6 +5,7 @@ This is a small website where you will find a list of all available emojis. I wi
 
 ### **To-Do** 📋
 - [x] Add complete list of emojis up to version 13.1
+- [ ] Add Vue.js
 - [ ] Improve design
 
 ### 📚 Libs used
